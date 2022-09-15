@@ -1,5 +1,8 @@
-# Link to figma design 👇👇
+# Link to figma design 👇🎨
 https://www.figma.com/file/hbg6jb8S0OZjLIoSuwYC3x/school-project?node-id=0%3A1
+
+# Link to live site 🚀🚀👇
+https://codex-28.netlify.app/
 
 # Getting Started with Create React App
 
