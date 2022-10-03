@@ -9,6 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { UserAuth } from "../context/AuthContext";
 import User from '../components/vision/visionAssets/user.png'
+import vision from '../components/Home/assests/vision.png';
 
 
 
@@ -78,20 +79,7 @@ const NavMenu = () => {
   return (
     <Navbar className="mx-auto text-black m-0 mr-0  w-full  py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          variant="small"
-          className="mr-4 cursor-pointer py-1.5 font-normal"
-        >
-          <h1 className="font-bold text-xl">
-            <Link to="/">VISION BOARD</Link>
-            <br />
-            <span className="text-sm font-light text-sky-500">
-              REAL ESTATE LIMITED
-            </span>
-          </h1>
-        </Typography>
+        <img src={vision} alt="logo" style={{width: 90, height: 70}} className="cursor-pointer"/>
         <div className="hidden lg:block">{navList}</div>
         {user?.email ? (
           <span>
@@ -133,7 +121,7 @@ const NavMenu = () => {
         )}
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-6 w-6 text-inherit mr-4 flex justify-center items-center hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
