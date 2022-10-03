@@ -67,4 +67,4 @@ const How = () => {
   );
 }
 
-export default How
+export default How;
