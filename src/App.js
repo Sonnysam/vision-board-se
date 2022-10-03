@@ -16,6 +16,7 @@ import NavMenu from "./components/Navbar";
 import { AuthContextProvider } from './context/AuthContext';
 import Account from "./pages/Account";
 import Protected from "./components/Protected/Protected";
+import Love from "./components/Love/Love";
 
 const App = () => {
 
@@ -38,6 +39,7 @@ const App = () => {
         </Routes>
         <Chat />
         <Footer />
+        <Love/>
       </AuthContextProvider>
     </>
   );

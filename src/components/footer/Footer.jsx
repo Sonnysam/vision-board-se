@@ -228,9 +228,6 @@ function Footer() {
       <h6 className="copyright">
         © {new Date().getFullYear()} . Rentnow . All rights reserved
       </h6>
-      <p className="text-white text-xs mt-5">
-        Developed with <span className="text-red-500">❤</span>{" "}by Team CodeX
-      </p>
     </FooterStyle>
   );
 }
