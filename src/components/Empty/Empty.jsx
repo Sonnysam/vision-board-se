@@ -2,7 +2,7 @@ import React from 'react'
 
 const Empty = () => {
   return (
-    <div>Empty</div>
+    <div className='mt-20 mb-20'>{""}</div>
   )
 }
 

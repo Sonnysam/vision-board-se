@@ -1,4 +1,5 @@
 import React from "react";
+import Empty from "../components/Empty/Empty";
 import About from "../components/Home/About";
 import Cal from "../components/Home/Cal";
 import Hero from "../components/Home/Hero";
@@ -19,6 +20,7 @@ const Home = () => {
       <How/>
       <Cal />
       {/* <Testimony /> */}
+      <Empty/>
     </div>
   );
 };
